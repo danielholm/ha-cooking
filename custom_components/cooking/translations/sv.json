@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ny tillagning",
+        "description": "Peka ut temperatursensorerna. Kärnan är obligatorisk, omgivningen valfri.",
+        "data": {
+          "name": "Namn",
+          "core_entity": "Kärntemperatur",
+          "ambient_entity": "Omgivningstemperatur"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Byt källsensorer",
+        "data": {
+          "core_entity": "Kärntemperatur",
+          "ambient_entity": "Omgivningstemperatur"
+        }
+      }
+    }
+  }
+}

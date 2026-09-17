@@ -1,0 +1,12 @@
+{
+  "domain": "cooking",
+  "name": "ha-cooking",
+  "codeowners": ["@danielholm"],
+  "config_flow": true,
+  "documentation": "https://github.com/danielholm/ha-cooking",
+  "integration_type": "helper",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/danielholm/ha-cooking/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}

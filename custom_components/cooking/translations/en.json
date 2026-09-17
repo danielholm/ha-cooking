@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "New cook",
+        "description": "Point to the temperature sensors. Core is required, ambient optional.",
+        "data": {
+          "name": "Name",
+          "core_entity": "Core temperature",
+          "ambient_entity": "Ambient temperature"
+        }
+      }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Change source sensors",
+        "data": {
+          "core_entity": "Core temperature",
+          "ambient_entity": "Ambient temperature"
+        }
+      }
+    }
+  }
+}
