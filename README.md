@@ -1,5 +1,11 @@
 # Cooking
 
+[![Tests](https://github.com/danielholm/ha-cooking/actions/workflows/tests.yml/badge.svg)](https://github.com/danielholm/ha-cooking/actions/workflows/tests.yml)
+[![Validate](https://github.com/danielholm/ha-cooking/actions/workflows/validate.yml/badge.svg)](https://github.com/danielholm/ha-cooking/actions/workflows/validate.yml)
+[![License](https://img.shields.io/github/license/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/issues)
+
 A Home Assistant helper integration that adds target temperature, pre-warning
 and hold-time tracking on top of **any temperature sensors**.
 
@@ -19,6 +25,11 @@ Add this repository as a custom repository in HACS, or copy
 Home Assistant.
 
 Then **Settings → Devices & services → Helpers → Create helper → Cooking**.
+
+[![Open in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=danielholm&repository=ha-cooking&category=integration)
+
+[![Tests](https://github.com/danielholm/ha-cooking/actions/workflows/tests.yml/badge.svg)](https://github.com/danielholm/ha-cooking/actions/workflows/tests.yml)
+[![Validate](https://github.com/danielholm/ha-cooking/actions/workflows/validate.yml/badge.svg)](https://github.com/danielholm/ha-cooking/actions/workflows/validate.yml)
 
 ## Entities
 
