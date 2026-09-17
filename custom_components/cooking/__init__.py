@@ -5,7 +5,7 @@ from __future__ import annotations
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import Platform
 from homeassistant.core import HomeAssistant
-from homeassistant.helpers.device_registry import DeviceEntryType, DeviceInfo
+from homeassistant.helpers.device_registry import DeviceInfo
 
 from .const import DOMAIN
 from .coordinator import CookingCoordinator
@@ -22,12 +22,16 @@ CookingConfigEntry = ConfigEntry
 
 
 def cooking_device_info(entry: ConfigEntry) -> DeviceInfo:
-    """En virtuell enhet sa entiteterna grupperas ihop i UI:t."""
+    """En enhet per tillagning, sa alla entiteter samlas pa ett kort.
+
+    Utan entry_type renderas den som en vanlig enhet i stallet for som en
+    tjanst, vilket ger enhetskortet med alla sensorer samlade.
+    """
     return DeviceInfo(
         identifiers={(DOMAIN, entry.entry_id)},
         name=entry.title,
-        manufacturer="Matlagning",
-        entry_type=DeviceEntryType.SERVICE,
+        manufacturer="Cooking",
+        model="Tillagning",
     )
 
 

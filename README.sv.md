@@ -15,8 +15,11 @@ Skapa en instans per sak du lagar. Har du två probes blir det två instanser.
 Lägg till repot som custom repository i HACS, eller kopiera
 `custom_components/cooking/` till din `config/custom_components/`. Starta om.
 
-Sedan **Inställningar → Enheter och tjänster → Hjälpare → Skapa hjälpare →
+Sedan **Inställningar → Enheter och tjänster → Lägg till integration →
 Matlagning**.
+
+Varje instans blir en egen enhet, med alla sina entiteter samlade på ett
+enhetskort.
 
 ## Entiteter
 
