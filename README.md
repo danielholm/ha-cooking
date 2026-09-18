@@ -1,12 +1,12 @@
 # Cooking
 
-[![Add integration](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=danielholm&repository=ha-cooking&category=integration)
 [![Tests](https://github.com/danielholm/ha-cooking/actions/workflows/tests.yml/badge.svg)](https://github.com/danielholm/ha-cooking/actions/workflows/tests.yml)
 [![Validate](https://github.com/danielholm/ha-cooking/actions/workflows/validate.yml/badge.svg)](https://github.com/danielholm/ha-cooking/actions/workflows/validate.yml)
 [![License](https://img.shields.io/github/license/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/blob/main/LICENSE)
 [![Release](https://img.shields.io/github/v/release/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/releases)
 [![Stars](https://img.shields.io/github/stars/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/stargazers)
 [![Issues](https://img.shields.io/github/issues/danielholm/ha-cooking)](https://github.com/danielholm/ha-cooking/issues)
+[![Downloads](https://img.shields.io/github/downloads/danielholm/ha-cooking/total)](https://github.com/danielholm/ha-cooking/releases)
 
 A Home Assistant helper integration that adds target temperature, pre-warning
 and hold-time tracking on top of **any temperature sensors**.
@@ -21,6 +21,8 @@ Create one instance per thing you are cooking. Two probes means two instances.
 [Svenska](README.sv.md)
 
 ## Installation
+
+[![Add integration](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=danielholm&repository=ha-cooking&category=integration)
 
 Add this repository as a custom repository in HACS, or copy
 `custom_components/cooking/` into your `config/custom_components/`. Restart
